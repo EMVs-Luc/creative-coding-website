@@ -25,6 +25,13 @@ export const useArts = defineStore('artsList', {
                     previewImage:"",
                     categoryID:2,
                     link:"/arts/pixels/glitch-effect"
+                },
+                {
+                    title: "Dithering Effect",
+                    description:"",
+                    previewImage:"",
+                    categoryID:2,
+                    link:"/arts/pixels/dithering"
                 }
             ]
         }

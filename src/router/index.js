@@ -4,6 +4,7 @@ import CreativeHubView from "@/views/CreativeHubView.vue";
 import LightningBolt from "@/components/arts/unsorted/LightningBolt.vue";
 import PixelSorter from "@/components/arts/Pixels/PixelSorter.vue";
 import GlitchEffect from "@/components/arts/Pixels/GlitchEffect.vue";
+import Dithering from "@/components/arts/Pixels/Dithering.vue";
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/arts/pixels/glitch-effect',
     name: 'glitch-effect',
     component: GlitchEffect
+  },
+  {
+    path: '/arts/pixels/dithering',
+    name: 'dithering-effect',
+    component: Dithering
   }
 
 
