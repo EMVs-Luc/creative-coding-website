@@ -32,6 +32,48 @@ export const useArts = defineStore('artsList', {
                     previewImage:"",
                     categoryID:2,
                     link:"/arts/pixels/dithering"
+                },
+                {
+                    title: "Merging Effect",
+                    description:"",
+                    previewImage:"",
+                    categoryID:2,
+                    link:"/arts/pixels/merging"
+                },
+                {
+                    title: "Resize Effect",
+                    description:"",
+                    previewImage:"",
+                    categoryID:2,
+                    link:"/arts/pixels/resize"
+                },
+                {
+                    title: "Abstract Circle",
+                    description:"",
+                    previewImage:"",
+                    categoryID:1,
+                    link:"/arts/shapes/abstract-circle"
+                },
+                {
+                    title: "Abstract Circle 2",
+                    description:"",
+                    previewImage:"",
+                    categoryID:1,
+                    link:"/arts/shapes/abstract-circle2"
+                },
+                {
+                    title: "L-System Interpreter",
+                    description:"",
+                    previewImage:"",
+                    categoryID:3,
+                    link:"/arts/l-system/l-system"
+                },
+                {
+                    title: "Sentence Generator",
+                    description:"",
+                    previewImage:"",
+                    categoryID:4,
+                    link:"/arts/markov-chain/sentence-generator"
                 }
             ]
         }

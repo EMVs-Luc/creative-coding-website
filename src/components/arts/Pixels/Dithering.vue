@@ -21,8 +21,8 @@ export default {
 
                 p5.preload = _=>{
                     console.log("preload")
-                    img = p5.loadImage(require('@/assets/glitchTestv3.png'))
-                    img_prepare = p5.loadImage(require('@/assets/glitchTestv3.png'))
+                    img = p5.loadImage(require('@/assets/dithering_image.png'))
+                    img_prepare = p5.loadImage(require('@/assets/dithering_image.png'))
                     console.log("preload end")
                 }
 

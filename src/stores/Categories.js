@@ -16,6 +16,14 @@ export const useCategories = defineStore('categoryList', {
                 {
                     id: 2,
                     title: "Pixels"
+                },
+                {
+                    id: 3,
+                    title: "L-System"
+                },
+                {
+                    id: 4,
+                    title: "Markov Chain"
                 }
             ]
         }
