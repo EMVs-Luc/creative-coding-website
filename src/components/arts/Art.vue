@@ -29,8 +29,13 @@ export default {
 <style scoped>
 
 div{
+    padding-top: 5vh;
     width: 100%;
     height: 100%;
+}
+
+body{
+    overflow: hidden;
 }
 
 </style>

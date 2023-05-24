@@ -11,6 +11,9 @@ import AbstractCircle from "@/components/arts/shapes/AbstractCircle.vue";
 import AbstractCircle2 from "@/components/arts/shapes/AbstractCircle2.vue";
 import LSystem from "@/components/arts/lsystem/LSystem.vue";
 import MarkovChainSentenceGenerator from "@/components/arts/MarkovChain/MarkovChainSentenceGenerator.vue";
+import BasicGameOfLive from "@/components/arts/gameoflife/BasicGameOfLive.vue";
+import Bublesort from "@/components/arts/sortieralgorithmen/Bublesort.vue";
+import QuickSort from "@/components/arts/sortieralgorithmen/QuickSort.vue";
 
 const routes = [
   {
@@ -72,6 +75,21 @@ const routes = [
     path: '/arts/markov-chain/sentence-generator',
     name: 'LSystem',
     component: MarkovChainSentenceGenerator
+  },
+  {
+    path: '/arts/game-of-life/basic',
+    name: 'Basic game of life',
+    component: BasicGameOfLive
+  },
+  {
+    path: '/arts/sorter/bubblesort',
+    name: 'Bubblesort',
+    component: Bublesort
+  },
+  {
+    path: '/arts/sorter/quickSort',
+    name: 'QuickSort',
+    component: QuickSort
   }
 
 

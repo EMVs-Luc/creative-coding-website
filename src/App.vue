@@ -1,6 +1,6 @@
 <template>
-    <Navbar id="navBar"></Navbar>
     <router-view id="router"/>
+    <Navbar id="navBar"></Navbar>
 
 
 
@@ -8,21 +8,36 @@
 
 <style>
 
+@import url('https://fonts.googleapis.com/css?family=Gruppo');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+
+
 #navBar{
-    height: 10%;
+    height: 5vh;
     width: 100%;
+    position: absolute;
+    top: 0;
+}
+h1{
+    font-family: 'Staatliches';
+    font-weight: normal;
+    font-size: 45px;
 }
 
 #router{
-    height: 90%;
+    font-family: 'Gruppo';
+    padding-top: 5vh;
+    height: 95%;
     width: 100%;
     overflow: hidden;
 }
 
 body{
     margin: 0;
-    overflow: hidden;
 }
+
+
 
 </style>
 <script setup>

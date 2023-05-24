@@ -36,15 +36,11 @@ export default {
 
                 let textNumber
 
-                p5.preload = _ => {
-
-                    let test = p5.loadStrings(require('@/assets/shakespeare.txt'))
-                }
-
 
                 // NOTE: Set up is here
                 p5.setup = _ => {
-                    p5.createCanvas(p5.windowWidth, (p5.windowHeight/100)*95);
+                    let canvas = p5.createCanvas(p5.windowWidth, (p5.windowHeight/100)*95);
+                    canvas.position(0,(p5.windowHeight/100)*5)
                     p5.pixelDensity(1);
                     p5.background(255);
 
@@ -53,7 +49,6 @@ export default {
                     inputTextGround = p5.createElement('textarea');
                     inputTextGround.position(displayRand,100)
                     inputTextGround.size(500,200);
-                    inputTextGround.html(besipielText)
 
                     p5.textSize(25);
                     p5.text("Output word amount", displayRand, 310)
@@ -168,10 +163,6 @@ export default {
                     generatedText += " " + lastGeneratedWord;
                     generatedTextWords+= 1
                 }
-
-
-
-                let besipielText = ""
 
             },
 

@@ -24,6 +24,14 @@ export const useCategories = defineStore('categoryList', {
                 {
                     id: 4,
                     title: "Markov Chain"
+                },
+                {
+                    id: 5,
+                    title: "Game of life"
+                },
+                {
+                    id: 6,
+                    title: "Sortieralgorithmus"
                 }
             ]
         }

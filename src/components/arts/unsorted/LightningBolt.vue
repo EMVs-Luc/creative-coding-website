@@ -28,7 +28,8 @@ export default {
 
                 // NOTE: Set up is here
                 p5.setup = _ => {
-                    p5.createCanvas(p5.windowWidth, (p5.windowHeight/100)*95);
+                    let canvas = p5.createCanvas(p5.windowWidth, (p5.windowHeight/100)*95);
+                    canvas.position(0,(p5.windowHeight/100)*5)
                     p5.background(0)
                     p5.stroke(color.r,color.g,color.b)
                     p5.strokeWeight(5)

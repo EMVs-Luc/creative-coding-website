@@ -26,8 +26,9 @@ export default {
 
                 // NOTE: Set up is here
                 p5.setup = _ => {
+                    let canvas = p5.createCanvas(p5.windowWidth, (p5.windowHeight/100)*95);
+                    canvas.position(0,(p5.windowHeight/100)*5)
                     p5.background(0)
-                    p5.createCanvas(p5.windowWidth, (p5.windowHeight/100)*95);
                     p5.pixelDensity(1);
                     colorPicker = p5.createColorPicker('#FFFFFF');
                     colorPicker.position((p5.windowHeight/100)*2, (p5.windowHeight/100)*6);

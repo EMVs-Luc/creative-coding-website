@@ -8,35 +8,35 @@ export const useArts = defineStore('artsList', {
                 {
                     title: "Lightning Bold",
                     description:"",
-                    previewImage:"",
+                    previewImage:"lightningbold.png",
                     categoryID:0,
-                    link:"/arts/unsorted/lightningbold"
+                    link:"/arts/unsorted/lightning-bold"
                 },
                 {
                     title: "Pixel Sorter",
                     description:"",
-                    previewImage:"",
+                    previewImage:"pixel-sorter.png",
                     categoryID:2,
                     link:"/arts/pixels/pixel-sorter"
                 },
                 {
                     title: "Glitch Effect",
                     description:"",
-                    previewImage:"",
+                    previewImage:"glitch.png",
                     categoryID:2,
                     link:"/arts/pixels/glitch-effect"
                 },
                 {
                     title: "Dithering Effect",
                     description:"",
-                    previewImage:"",
+                    previewImage:"dithering.png",
                     categoryID:2,
                     link:"/arts/pixels/dithering"
                 },
                 {
                     title: "Merging Effect",
                     description:"",
-                    previewImage:"",
+                    previewImage:"mearging.png",
                     categoryID:2,
                     link:"/arts/pixels/merging"
                 },
@@ -50,14 +50,14 @@ export const useArts = defineStore('artsList', {
                 {
                     title: "Abstract Circle",
                     description:"",
-                    previewImage:"",
+                    previewImage:"abstract-circle.png",
                     categoryID:1,
                     link:"/arts/shapes/abstract-circle"
                 },
                 {
                     title: "Abstract Circle 2",
                     description:"",
-                    previewImage:"",
+                    previewImage:"abstract-circle2.png",
                     categoryID:1,
                     link:"/arts/shapes/abstract-circle2"
                 },
@@ -71,9 +71,30 @@ export const useArts = defineStore('artsList', {
                 {
                     title: "Sentence Generator",
                     description:"",
-                    previewImage:"",
+                    previewImage:"sentence-generator.png",
                     categoryID:4,
                     link:"/arts/markov-chain/sentence-generator"
+                },
+                {
+                    title: "Basic game of life",
+                    description:"",
+                    previewImage:"game-of-live.png",
+                    categoryID:5,
+                    link:"/arts/game-of-life/basic"
+                },
+                {
+                    title: "Bubblesort",
+                    description:"",
+                    previewImage:"bublesort.png",
+                    categoryID:6,
+                    link:"/arts/sorter/bubblesort"
+                },
+                {
+                    title: "Quicksort",
+                    description:"",
+                    previewImage:"quicksort.png",
+                    categoryID:6,
+                    link:"/arts/sorter/quicksort"
                 }
             ]
         }
