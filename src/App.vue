@@ -25,6 +25,18 @@ h1{
     font-size: 45px;
 }
 
+h2{
+  font-family: 'Staatliches';
+  font-weight: normal;
+  font-size: 35px;
+}
+
+h3{
+  font-family: 'Staatliches';
+  font-weight: normal;
+  font-size: 25px;
+}
+
 #router{
     font-family: 'Gruppo';
     padding-top: 5vh;

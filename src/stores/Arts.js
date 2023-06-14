@@ -9,7 +9,7 @@ export const useArts = defineStore('artsList', {
                     title: "Lightning Bold",
                     description:"",
                     previewImage:"lightningbold.png",
-                    categoryID:0,
+                    categoryID:1,
                     link:"/arts/unsorted/lightning-bold"
                 },
                 {
@@ -43,7 +43,7 @@ export const useArts = defineStore('artsList', {
                 {
                     title: "Resize Effect",
                     description:"",
-                    previewImage:"",
+                    previewImage:"image_resize.png",
                     categoryID:2,
                     link:"/arts/pixels/resize"
                 },
@@ -64,37 +64,44 @@ export const useArts = defineStore('artsList', {
                 {
                     title: "L-System Interpreter",
                     description:"",
-                    previewImage:"",
-                    categoryID:3,
+                    previewImage:"LSystem.png",
+                    categoryID:4,
                     link:"/arts/l-system/l-system"
                 },
                 {
                     title: "Sentence Generator",
                     description:"",
                     previewImage:"sentence-generator.png",
-                    categoryID:4,
+                    categoryID:5,
                     link:"/arts/markov-chain/sentence-generator"
                 },
                 {
                     title: "Basic game of life",
                     description:"",
                     previewImage:"game-of-live.png",
-                    categoryID:5,
+                    categoryID:6,
                     link:"/arts/game-of-life/basic"
                 },
                 {
                     title: "Bubblesort",
                     description:"",
                     previewImage:"bublesort.png",
-                    categoryID:6,
+                    categoryID:7,
                     link:"/arts/sorter/bubblesort"
                 },
                 {
                     title: "Quicksort",
                     description:"",
                     previewImage:"quicksort.png",
-                    categoryID:6,
+                    categoryID:7,
                     link:"/arts/sorter/quicksort"
+                },
+                {
+                    title: "MergeSort",
+                    description:"",
+                    previewImage:"mearg-sort.png", //mergesort.png
+                    categoryID:7,
+                    link:"/arts/sorter/mergesort"
                 }
             ]
         }

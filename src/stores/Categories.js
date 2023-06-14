@@ -6,31 +6,27 @@ export const useCategories = defineStore('categoryList', {
         {
             categories: [
                 {
-                    id: 0,
-                    title: "Unsorted"
-                },
-                {
                     id: 1,
-                    title: "Geometric Forms"
+                    title: "Shapes"
                 },
                 {
                     id: 2,
-                    title: "Pixels"
-                },
-                {
-                    id: 3,
-                    title: "L-System"
+                    title: "Image manipulation"
                 },
                 {
                     id: 4,
-                    title: "Markov Chain"
+                    title: "L-System"
                 },
                 {
                     id: 5,
-                    title: "Game of life"
+                    title: "Markov chain"
                 },
                 {
                     id: 6,
+                    title: "Game of life"
+                },
+                {
+                    id: 7,
                     title: "Sortieralgorithmus"
                 }
             ]

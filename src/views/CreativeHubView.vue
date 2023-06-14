@@ -4,10 +4,17 @@
         <div class="category-div" >
             <div v-for="category in categories" class="category"><category :category="category" ></category></div>
         </div>
+        <div class="place_holder"></div>
     </div>
 </template>
 
 <style scoped>
+    .place_holder{
+      clear: both;
+      height: 1px;
+      width: 1px;
+      margin-top: 500px;
+    }
     .body{
         padding-left: 50px;
         margin-top: 10px;
@@ -31,6 +38,11 @@ import {useCategories} from "@/stores/Categories";
 import {mapState} from "pinia";
 
 export default {
+  // Big O notaion Buble O(n^2) Quick O(n log n)  MergeO(n log n)
+  // Worstcast
+  //bastcase
+  //stable
+  //instable
   name: 'CreativeHubView',
   components: {
       Category,

@@ -28,17 +28,18 @@ export default {
                 p5.setup = _ => {
                     let canvas = p5.createCanvas(p5.windowWidth, (p5.windowHeight/100)*95);
                     canvas.position(0,(p5.windowHeight/100)*5)
-                    p5.background(0)
+                    p5.background(255)
                     p5.pixelDensity(1);
+                    p5.noSmooth();
                     colorPicker = p5.createColorPicker('#FFFFFF');
-                    colorPicker.position((p5.windowHeight/100)*2, (p5.windowHeight/100)*6);
+                    colorPicker.position((p5.windowHeight/2)-50, (p5.windowHeight/100)*6);
                 }
 
 
                 // NOTE: Draw is here
                 p5.draw = _ => {
-                    p5.background(0)
-                    p5.image(img,(p5.windowHeight/100)*2,(p5.windowHeight/100)*5,(p5.windowHeight/100)*85,(p5.windowHeight/100)*85)
+                  p5.background(255)
+                    p5.image(img,(p5.windowWidth/2)-((p5.windowHeight/100)*85/2),(p5.windowHeight/100)*5,(p5.windowHeight/100)*85,(p5.windowHeight/100)*85)
                     if(waitNew) return
 
                     //console.log(colorPicker.color().levels[0])

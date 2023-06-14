@@ -34,13 +34,12 @@ export default {
 
                 // NOTE: Draw is here
                 p5.draw = _ => {
-                    p5.background(0);
-                    p5.image(img,0,0)
+                  p5.background(0);
+                  p5.image(img,0,0)
                 }
 
                 p5.mousePressed = _ =>{
-                    console.log("test")
-                    img.resize(p5.mouseX,p5.mouseY)
+                  img.resize(p5.mouseX,p5.mouseY)
                 }
 
 
